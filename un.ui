@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>img/ico.ico</normaloff>img/ico.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="bg">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>500</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Pictures/Гуль/1620291524_8-phonoteka_org-p-kaneki-ken-fon-14.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_exit">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>230</y>
+      <width>90</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#bt_exit {
+	background-color: #ffffff;
+}
+
+QPushButton#bt_exit:hover {
+	background-color: rgb(159, 9, 47);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Выход</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_svernut">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>230</y>
+      <width>90</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#bt_svernut {
+	background-color: #ffffff;
+}
+
+QPushButton#bt_svernut:hover {
+	background-color: rgb(159, 9, 47);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Свернуть</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_cs16">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>80</y>
+      <width>90</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#bt_cs16 {
+	background-color: #ffffff;
+}
+
+QPushButton#bt_cs16:hover {
+	background-color: rgb(159, 9, 47);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>CS 1.6</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_css">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>80</y>
+      <width>90</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#bt_css {
+	background-color: #ffffff;
+}
+
+QPushButton#bt_css:hover {
+	background-color: rgb(159, 9, 47);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>CSS</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_csgo">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>130</y>
+      <width>90</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#bt_csgo {
+	background-color: #ffffff;
+}
+
+QPushButton#bt_csgo:hover {
+	background-color: rgb(159, 9, 47);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>CS GO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_dota2">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>130</y>
+      <width>90</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#bt_dota2 {
+	background-color: #ffffff;
+}
+
+QPushButton#bt_dota2:hover {
+	background-color: rgb(159, 9, 47);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Dota2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_readme">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>180</y>
+      <width>90</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#bt_readme {
+	background-color: #ffffff;
+}
+
+QPushButton#bt_readme:hover {
+	background-color: rgb(159, 9, 47);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Инструкция</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_options">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>180</y>
+      <width>90</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#bt_options {
+	background-color: #ffffff;
+}
+
+QPushButton#bt_options:hover {
+	background-color: rgb(159, 9, 47);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Настройки</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="my_tg">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>270</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;[TG] @t_o_ma_s&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
